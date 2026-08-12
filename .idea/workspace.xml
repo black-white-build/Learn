@@ -6,27 +6,168 @@
   <component name="ChangeListManager">
     <list default="true" id="fad45f07-fff6-4b89-a480-23cfdc046c8c" name="更改" comment="关注，评论，点赞，管理评论">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/follow/controller/FollowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/follow/controller/FollowController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/follow/service/FollowService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/follow/service/FollowService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/follow/service/impl/FollowServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/follow/service/impl/FollowServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/dto/CommentCreateRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/dto/CommentCreateRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/entity/VideoComment.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/entity/VideoComment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/entity/VideoFavorite.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/entity/VideoFavorite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/entity/VideoLike.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/entity/VideoLike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/mapper/AdminCommentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/mapper/AdminCommentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/mapper/VideoCommentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/mapper/VideoCommentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/mapper/VideoFavoriteMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/mapper/VideoFavoriteMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/mapper/VideoLikeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/mapper/VideoLikeMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/service/AdminCommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/service/AdminCommentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/service/CommentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/service/InteractionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/service/InteractionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/service/impl/AdminCommentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/service/impl/AdminCommentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/service/impl/CommentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/service/impl/CommentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/vo/AdminCommentVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/vo/AdminCommentVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/vo/InteractionStatusVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/vo/InteractionStatusVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/vo/VideoCommentVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/vo/VideoCommentVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/common/api/ApiResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/common/api/PageResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/common/exception/BusinessException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/common/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/common/exception/MessagePublishException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/common/exception/StorageOperationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/common/exception/VideoProcessingException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/config/JacksonConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/config/MybatisPlusConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/config/PasswordConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/config/RabbitTemplateConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/config/RedisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/config/RequestLoggingFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/infrastructure/mq/DeadLetterMessageConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/infrastructure/mq/DelayedMessageConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/infrastructure/mq/DelayedMessagePublisher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/infrastructure/mq/RabbitMqConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/infrastructure/mq/controller/DeadLetterAdminController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/infrastructure/mq/entity/DeadLetterRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/infrastructure/mq/mapper/DeadLetterRecordMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/infrastructure/mq/service/DeadLetterRecordService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/infrastructure/mq/service/impl/DeadLetterRecordServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/infrastructure/oss/config/MinioConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/infrastructure/oss/config/MinioProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/infrastructure/oss/service/MinioService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/infrastructure/oss/service/StoredObjectMetadata.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/infrastructure/oss/service/impl/MinioServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/infrastructure/redis/RedisKeys.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/auth/controller/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/auth/dto/LoginRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/auth/dto/RegisterRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/auth/service/AuthService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/auth/service/impl/AuthServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/auth/vo/LoginResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/category/controller/VideoCategoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/category/entity/VideoCategory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/category/mapper/VideoCategoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/category/service/VideoCategoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/category/service/impl/VideoCategoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/follow/controller/FollowController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/follow/entity/UserFollow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/follow/mapper/UserFollowMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/follow/service/FollowService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/follow/service/impl/FollowServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/follow/vo/FollowStatusVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/follow/vo/FollowUserVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/controller/AdminCommentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/controller/CommentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/controller/InteractionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/controller/RedisTestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/dto/CommentCreateRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/entity/VideoComment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/entity/VideoFavorite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/entity/VideoLike.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/mapper/AdminCommentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/mapper/VideoCommentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/mapper/VideoFavoriteMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/mapper/VideoLikeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/service/AdminCommentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/service/CommentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/service/InteractionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/service/impl/AdminCommentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/service/impl/CommentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/service/impl/InteractionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/vo/AdminCommentVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/vo/InteractionStatusVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/interaction/vo/VideoCommentVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/notification/controller/NotificationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/notification/entity/Notification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/notification/event/NotificationDomainEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/notification/event/NotificationEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/notification/mapper/NotificationMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/notification/service/NotificationMessageConsumerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/notification/service/NotificationMessagePublisherService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/notification/service/NotificationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/notification/service/impl/NotificationMessageConsumerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/notification/service/impl/NotificationMessagePublisherServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/notification/service/impl/NotificationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/notification/vo/NotificationVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/upload/config/UploadSecurityProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/upload/controller/FileUploadController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/upload/dto/UploadPresignRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/upload/service/UploadSessionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/upload/service/UploadTicket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/upload/service/UploadedFileSecurityValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/upload/vo/FileUploadVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/upload/vo/UploadPresignVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/user/entity/SysUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/user/mapper/SysUserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/video/config/HotRankProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/video/config/ResourceCleanupProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/video/config/VideoProcessProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/video/config/VideoReviewProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/video/controller/AdminVideoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/video/controller/CreatorProfileController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/video/controller/CreatorVideoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/video/controller/VideoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/video/dto/VideoCreateRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/video/dto/VideoReviewRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/video/dto/VideoUpdateRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/video/entity/Video.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/video/event/ResourcePurgeDomainEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/video/event/ResourcePurgeEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/video/event/ReviewTimeoutEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/video/event/VideoProcessEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/video/mapper/VideoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/video/service/HotRankService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/video/service/VideoProcessMessagePublisher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/video/service/VideoResourceCleanupService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/video/service/VideoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/video/service/impl/HotRankServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/video/service/impl/HotVideoCacheService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/video/service/impl/VideoProcessMessageConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/video/service/impl/VideoProcessMessagePublisherImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/video/service/impl/VideoResourceCleanupServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/video/service/impl/VideoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/video/service/impl/VideoViewCountService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/video/vo/AdminVideoReviewVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/video/vo/CreatorProfileVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/video/vo/CreatorVideoListVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/video/vo/DeletedVideoVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/video/vo/HotVideoCardsCache.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/video/vo/VideoCreateVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/video/vo/VideoDetailVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/video/vo/VideoListItemVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/module/video/vo/VideoViewReportVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/security/JwtAuthenticationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/security/JwtProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/security/JwtTokenProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/security/LoginUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/security/SecurityUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/mapper/follow/UserFollowMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/mapper/follow/UserFollowMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/main/resources/mapper/interaction/AdminCommentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/mapper/interaction/AdminCommentMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/main/resources/mapper/interaction/VideoCommentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/mapper/interaction/VideoCommentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/mapper/notification/NotificationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/mapper/notification/NotificationMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/mapper/video/VideoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/mapper/video/VideoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/example/demo/infrastructure/oss/service/impl/MinioServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/example/demo/module/notification/service/impl/NotificationMessageConsumerServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/example/demo/module/upload/service/UploadTicketSerializationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/example/demo/module/video/service/impl/HotRankServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/example/demo/module/video/service/impl/HotVideoCacheServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/example/demo/module/video/service/impl/VideoProcessMessageConsumerLockTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/example/demo/module/video/service/impl/VideoResourceCleanupServiceImplLockTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/example/demo/module/video/service/impl/VideoServiceImplReviewNotificationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/example/demo/module/video/vo/HotVideoCardsCacheSerializationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/create_resume.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/212" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume_photo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/review_resume_pdf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/deploy.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/deploy.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/package-deploy.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/package-deploy.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/SQL.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/SQL.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videonest-deploy.tar.gz" beforeDir="false" afterPath="$PROJECT_DIR$/videonest-deploy.tar.gz" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,18 +208,19 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;S:/videonest&quot;,
-    &quot;应用程序.DemoApplication.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "S:/videonest",
+    "应用程序.DemoApplication.executor": "Run",
+    "应用程序.VideoNestApplication.executor": "Run"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="S:\videonest\deploy\minor" />
