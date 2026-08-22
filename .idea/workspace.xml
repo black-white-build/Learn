@@ -6,33 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="fad45f07-fff6-4b89-a480-23cfdc046c8c" name="更改" comment="关注，评论，点赞，管理评论">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/config/RequestLoggingFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/config/RequestLoggingFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/infrastructure/redis/RedisKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/infrastructure/redis/RedisKeys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/interaction/mapper/VideoCommentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/interaction/mapper/VideoCommentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/interaction/service/impl/AdminCommentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/interaction/service/impl/AdminCommentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/interaction/service/impl/CommentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/interaction/service/impl/CommentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/consumer/VideoProcessMessageConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/consumer/VideoProcessMessageConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/mapper/VideoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/mapper/VideoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/service/VideoViewCountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/service/VideoViewCountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/service/impl/HotVideoCacheServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/service/impl/HotVideoCacheServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/service/impl/VideoDiscoveryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/service/impl/VideoDiscoveryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/service/impl/VideoReviewServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/service/impl/VideoReviewServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/upload/service/UploadSessionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/upload/service/UploadSessionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/service/VideoProcessMessagePublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/service/VideoProcessMessagePublisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/service/impl/VideoProcessMessagePublisherImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/service/impl/VideoProcessMessagePublisherImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/service/impl/VideoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/service/impl/VideoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/service/impl/VideoViewCountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/service/impl/VideoViewCountServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/mapper/interaction/VideoCommentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/mapper/interaction/VideoCommentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/mapper/video/VideoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/mapper/video/VideoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/videonest/module/video/consumer/VideoProcessMessageConsumerLockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/videonest/module/video/consumer/VideoProcessMessageConsumerLockTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/videonest/module/video/service/impl/HotVideoCacheServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/videonest/module/video/service/impl/HotVideoCacheServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/videonest/module/video/service/impl/VideoReviewServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/videonest/module/video/service/impl/VideoReviewServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/README-server.md" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/README-server.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/benchmark-mixed.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/benchmark-mixed.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/deploy.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/deploy.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/run-performance-suite.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/run-performance-suite.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,20 +51,20 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;S:/videonest&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;应用程序.DemoApplication.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.VideoNestApplication.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "S:/videonest",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "应用程序.DemoApplication.executor": "Run",
+    "应用程序.VideoNestApplication.executor": "Run"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="S:\videonest\deploy\minor" />
