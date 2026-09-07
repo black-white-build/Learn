@@ -1,4 +1,4 @@
-package com.videonest.config;
+package com.example.demo.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -7,15 +7,13 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 
 /**
  * 密码加密器配置
- * 用于用户密码加密、登录时密码比对，配合SpringSecurity使用
+ * strength=8：加密迭代次数为 2^8=256 次，比默认强度 10 快约 4 倍
  */
 @Configuration
 public class PasswordConfig {
 
     @Bean
     public PasswordEncoder passwordEncoder() {
-        // strength=8：加密迭代次数为 2^8=256 次，比默认强度 10（2^10=1024 次）快约 4 倍
-        // 个人项目安全性完全够用，可显著降低注册接口的 CPU 开销
         return new BCryptPasswordEncoder(8);
     }
 }
