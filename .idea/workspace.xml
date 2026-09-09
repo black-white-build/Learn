@@ -7,9 +7,7 @@
     <list default="true" id="fad45f07-fff6-4b89-a480-23cfdc046c8c" name="更改" comment="关注，评论，点赞，管理评论">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/config/PasswordConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/config/PasswordConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/infrastructure/redis/RenewableRedisLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/infrastructure/redis/RenewableRedisLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/service/VideoProcessRecoveryScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/service/VideoProcessRecoveryScheduler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/security/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/security/JwtAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/benchmark/register-benchmark.jmx" beforeDir="false" afterPath="$PROJECT_DIR$/benchmark/register-benchmark.jmx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
