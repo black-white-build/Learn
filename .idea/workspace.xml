@@ -6,8 +6,94 @@
   <component name="ChangeListManager">
     <list default="true" id="fad45f07-fff6-4b89-a480-23cfdc046c8c" name="更改" comment="关注，评论，点赞，管理评论">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/config/PasswordConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/config/PasswordConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/benchmark/register-benchmark.jmx" beforeDir="false" afterPath="$PROJECT_DIR$/benchmark/register-benchmark.jmx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/VideoNestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/VideoNestApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/common/api/PageResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/common/api/PageResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/common/exception/BusinessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/common/exception/BusinessException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/common/exception/MessagePublishException.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/common/exception/MessagePublishException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/config/MybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/config/MybatisPlusConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/config/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/infrastructure/mq/RabbitMqConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/infrastructure/mq/RabbitMqConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/infrastructure/oss/config/MinioConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/infrastructure/oss/config/MinioConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/infrastructure/oss/config/MinioProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/infrastructure/oss/config/MinioProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/infrastructure/oss/service/MinioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/infrastructure/oss/service/MinioService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/infrastructure/oss/service/impl/MinioServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/infrastructure/oss/service/impl/MinioServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/infrastructure/outbox/mapper/OutboxEventMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/infrastructure/outbox/mapper/OutboxEventMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/infrastructure/outbox/service/impl/TransactionalOutboxServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/infrastructure/outbox/service/impl/TransactionalOutboxServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/infrastructure/redis/RedisKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/infrastructure/redis/RedisKeys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/auth/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/auth/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/category/controller/VideoCategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/category/controller/VideoCategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/category/mapper/VideoCategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/category/mapper/VideoCategoryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/category/service/VideoCategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/category/service/VideoCategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/follow/vo/FollowStatusVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/follow/vo/FollowStatusVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/follow/vo/FollowUserVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/follow/vo/FollowUserVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/interaction/mapper/VideoCommentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/interaction/mapper/VideoCommentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/interaction/mapper/VideoLikeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/interaction/mapper/VideoLikeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/interaction/service/CommentListCacheService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/interaction/service/CommentListCacheService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/interaction/service/impl/CommentListCacheServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/interaction/service/impl/CommentListCacheServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/interaction/service/impl/CommentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/interaction/service/impl/CommentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/interaction/vo/CommentPageCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/interaction/vo/CommentPageCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/interaction/vo/CommentReplyCountVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/interaction/vo/CommentReplyCountVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/notification/controller/NotificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/notification/controller/NotificationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/notification/entity/Notification.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/notification/entity/Notification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/notification/event/NotificationDomainEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/notification/event/NotificationDomainEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/notification/event/NotificationEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/notification/event/NotificationEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/notification/service/NotificationMessageConsumerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/notification/service/NotificationMessageConsumerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/notification/service/NotificationMessagePublisherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/notification/service/NotificationMessagePublisherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/notification/service/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/notification/service/NotificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/notification/service/impl/NotificationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/notification/service/impl/NotificationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/notification/vo/NotificationVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/notification/vo/NotificationVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/upload/controller/FileUploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/upload/controller/FileUploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/upload/dto/UploadPresignRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/upload/dto/UploadPresignRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/upload/service/UploadSessionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/upload/service/UploadSessionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/user/controller/AdminUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/user/controller/AdminUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/user/controller/PasswordResetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/user/controller/PasswordResetController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/user/entity/PasswordResetRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/user/entity/PasswordResetRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/user/entity/SysUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/user/entity/SysUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/user/mapper/PasswordResetRequestMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/user/mapper/PasswordResetRequestMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/user/mapper/SysUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/user/mapper/SysUserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/user/service/AdminUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/user/service/AdminUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/user/service/impl/AdminUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/user/service/impl/AdminUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/user/vo/AdminUserVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/user/vo/AdminUserVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/user/vo/PasswordResetRequestVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/user/vo/PasswordResetRequestVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/consumer/VideoProcessMessageConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/consumer/VideoProcessMessageConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/controller/AdminVideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/controller/AdminVideoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/controller/CreatorProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/controller/CreatorProfileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/controller/CreatorVideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/controller/CreatorVideoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/controller/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/controller/VideoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/entity/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/entity/Video.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/mapper/VideoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/mapper/VideoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/service/VideoListCacheService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/service/VideoListCacheService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/service/VideoReviewService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/service/VideoReviewService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/service/impl/HotRankServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/service/impl/HotRankServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/service/impl/VideoListCacheServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/service/impl/VideoListCacheServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/service/impl/VideoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/service/impl/VideoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/service/impl/VideoViewCountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/service/impl/VideoViewCountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/vo/VideoCreateVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/vo/VideoCreateVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/videonest/security/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/videonest/security/JwtAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/videonest/VideoNestApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/videonest/VideoNestApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/videonest/common/exception/GlobalExceptionHandlerHttpStatusTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/videonest/common/exception/GlobalExceptionHandlerHttpStatusTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/videonest/infrastructure/oss/service/impl/MinioServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/videonest/infrastructure/oss/service/impl/MinioServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/videonest/infrastructure/outbox/TransactionalOutboxServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/videonest/infrastructure/outbox/TransactionalOutboxServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/videonest/integration/FlywayMySqlContainerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/videonest/integration/FlywayMySqlContainerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/videonest/module/notification/service/impl/NotificationMessageConsumerServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/videonest/module/notification/service/impl/NotificationMessageConsumerServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/videonest/module/upload/service/UploadTicketSerializationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/videonest/module/upload/service/UploadTicketSerializationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/videonest/module/video/consumer/VideoProcessMessageConsumerLockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/videonest/module/video/consumer/VideoProcessMessageConsumerLockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/videonest/module/video/service/impl/HotRankServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/videonest/module/video/service/impl/HotRankServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/videonest/module/video/service/impl/HotVideoCacheServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/videonest/module/video/service/impl/HotVideoCacheServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/videonest/module/video/service/impl/VideoProcessMessagePublisherImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/videonest/module/video/service/impl/VideoProcessMessagePublisherImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/videonest/module/video/service/impl/VideoResourceCleanupServiceImplLockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/videonest/module/video/service/impl/VideoResourceCleanupServiceImplLockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/videonest/module/video/service/impl/VideoReviewServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/videonest/module/video/service/impl/VideoReviewServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/videonest/module/video/service/impl/VideoViewCountServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/videonest/module/video/service/impl/VideoViewCountServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/videonest/module/video/vo/HotVideoCardsCacheSerializationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/videonest/module/video/vo/HotVideoCardsCacheSerializationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/videonest/security/AdminEndpointSecurityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/videonest/security/AdminEndpointSecurityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/videonest/security/AuthEndpointRateLimitFilterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/videonest/security/AuthEndpointRateLimitFilterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/videonest/security/JwtRevocationServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/videonest/security/JwtRevocationServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/server.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/server.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/api/creator-video.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/api/creator-video.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/views/UploadVideoView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/views/UploadVideoView.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +242,7 @@
       <breakpoints>
         <line-breakpoint type="java-method">
           <url>file://$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/controller/CreatorVideoController.java</url>
-          <line>36</line>
+          <line>40</line>
           <properties class="com.videonest.module.video.controller.CreatorVideoController" method="create">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -165,7 +251,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
           <url>file://$PROJECT_DIR$/backend/src/main/java/com/videonest/module/upload/controller/FileUploadController.java</url>
-          <line>38</line>
+          <line>50</line>
           <properties class="com.videonest.module.upload.controller.FileUploadController" method="presign">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -174,7 +260,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
           <url>file://$PROJECT_DIR$/backend/src/main/java/com/videonest/module/upload/controller/FileUploadController.java</url>
-          <line>45</line>
+          <line>57</line>
           <properties class="com.videonest.module.upload.controller.FileUploadController" method="complete">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -192,12 +278,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
           <url>file://$PROJECT_DIR$/backend/src/main/java/com/videonest/module/video/service/impl/VideoServiceImpl.java</url>
-          <line>157</line>
+          <line>160</line>
           <properties class="com.videonest.module.video.service.impl.VideoServiceImpl" method="createVideo">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="54" />
+          <option name="timeStamp" value="55" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-defaults>
